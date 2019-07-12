@@ -81,7 +81,7 @@ div>a{
      height: 100vh;
      width: 100%;
      background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-     url(/assets/analog-antique-aperture-1005332.jpg);
+     url(../assets/analog-antique-aperture-1005332.jpg);
      background-size: cover;
    
  }
