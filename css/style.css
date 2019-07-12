@@ -1,0 +1,350 @@
+@media(max-width:1024px){
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.container{
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ ul,li{
+    display: flex;
+    margin-left: 60px;
+}
+
+#active{
+    color: #ff9696;
+}
+
+a:hover{
+    border-bottom: 2px solid #ff9696;
+    color: #ff9696;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    background-color: rgba(0,0,0,0.9);
+    height: 80px;
+    text-align: center;
+    z-index: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    position: fixed;
+    margin-bottom: 10px;
+    top: 0;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+div>a{
+    margin-left: 80px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: sans-serif;
+ }
+ 
+ .link{
+     margin-left: 800px;
+    
+ }
+
+ #text{
+     margin-right: 400px;
+     text-transform: uppercase;
+     font-size: 20px;
+     font-weight: 700;
+     color: #ffe89e;
+ }
+
+ i{
+     color: white;
+     margin-left: 50px;
+
+ }
+
+ .welcome-text{
+     height: 100vh;
+     width: 100%;
+     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+     url(/assets/analog-antique-aperture-1005332.jpg);
+     background-size: cover;
+   
+ }
+
+ .welcome-text h2 {
+    font-weight: 700;
+    font-size: 82px; 
+    bottom: 0;
+    padding-top: 300px;
+    margin-left: 100px;
+ }
+
+ h1,h2,h3,h4,h6,bottom-border{
+    background: -webkit-linear-gradient(#ff9696,#ffe89e);
+    background-image: -webkit-linear-gradient(top, rgb(255, 150, 150), rgb(255, 232, 158));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: text;
+    background-color: initial;
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+    animation-delay: 900ms;
+    opacity: 1;
+ }
+
+ p{
+     font-size: 15px;
+     color: white;
+     margin-left: 100px;
+     font-weight: 400;
+ }
+
+ button{
+     border-radius: 20px;
+     height: 50px;
+     width: 170px;
+     border: 3px solid black;
+     margin-left: 100px;
+     outline: none;
+ }
+
+ button:hover{
+     background-color: rgb(63, 54, 37);
+ }
+
+ button,h2{
+     font-size: 15px;
+     font-weight: 400;
+     color: black;
+ }
+
+ .bottom{
+     display: flex;
+     align-content: center;
+
+ }
+
+ .animated bounceIndown{
+    animation-delay: 500ms;
+    opacity: 1;
+ }
+
+.six{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 80px,auto;
+}
+
+#txt{
+    font-weight: 900;
+    font-size: 23px;
+    border-bottom: 1px solid #ff9696;
+    
+}
+
+.six>div{
+    height: 200px;
+    width: 300px;
+    background-color: grey;
+    margin-top: 30px;
+}
+
+.six>div:nth-child(2){
+    height: 400px;
+    width: 300px;
+}
+
+.six>div:nth-child(5){
+    height: 200px;
+    width: 600px;
+}
+
+#about{
+    font-weight: 900;
+    font-size: 23px;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+.statistics>.img{
+    height: 700px;
+    width: 500px;
+    margin-left: 100px;
+    background-color: grey;
+    margin-top: 30px;
+}
+
+.statistics{
+    display: flex;
+}
+
+#About-Me h1::after{
+    content: "";
+    height: 2px;
+    width: 120px;
+    background: #ff9696;
+    display: block;
+    margin: 8px auto 2px;
+}
+
+.progress>h3>span{
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.progress>h3{
+    margin-left:100px;
+    margin-top: 20px;
+}
+
+.p-bar{
+    background-color: rgba(194,191,191,0.541);
+    display: block;
+    height: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 100px;
+    width: 400px;
+}
+
+.p-bar span{
+    height: 30px;
+    float: left;
+    background-color: #ff9696;
+}
+
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+
+.css{
+    width: 50%;
+    animation: css 2s;
+}
+
+.javascript{
+    width: 40%;
+    animation: javascript 2s;
+}
+
+.React{
+    width: 40%;
+    animation: react 2s;
+}
+
+.j-query{
+    width: 50%;
+    animation: j-query 2s;
+}
+
+@keyframes html{
+     0%{
+         width: 0%;
+     }
+    100%{
+        width:90%;
+    }     
+}  
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+   100%{
+       widows: 50%;
+   }     
+}  
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+   100%{
+       width:40%;
+   }     
+} 
+
+@keyframes React{
+    0%{
+        width: 40%;
+    }
+   100%{
+       width:0%;
+   }     
+}  
+
+@keyframes j-query{
+    0%{
+        width: 0%;
+    }
+   100%{
+       width:50%;
+   }     
+}  
+
+#Services>h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#Services h2::after{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background: #ff9696;
+    display: block;
+    margin: 8px auto 2px;
+}
+
+#Services>h2>p{
+    font-size: 15px;
+    color: black;
+}
+
+.offer>div{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+}
+
+.offer{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
+    margin: 80px,auto;
+}
+}
+
+
+
+
